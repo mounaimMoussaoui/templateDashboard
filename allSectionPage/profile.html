@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="this is template with css and html for more information in last languages" />
+    <link rel="stylesheet" href="../style/normalize.css" />
+    <link rel="stylesheet" href="../style/all.min.css" />
+    <link rel="stylesheet" href="../style/main.css" />
+    <title>Profile</title>
+</head>
+
+<body>
+    <header>
+        <form>
+            <fieldset>
+                <i class="fa fa-search"></i>
+                <input type="search" name="searchHead" placeholder="search keyword" />
+            </fieldset>
+        </form>
+        <div class="user-notification">
+            <i class="fa fa-bell"></i>
+            <div class="user-img">
+                <img src="../imges/avatar.png" alt="user-img" width="50" />
+            </div>
+        </div>
+    </header>
+    <nav class="navbar-left">
+        <div class="head-logo">Elzero</div>
+        <ul class="nav-element">
+            <li>
+                <i class="fab fa-dashcube"></i><a href="../index.html">Dashboard</a>
+            </li>
+            <li>
+                <i class="fa fa-sticky-note"></i><a href="setting.html">settings</a>
+            </li>
+            <li class="active">
+                <i class="fa fa-person-booth"></i><a href="profile.html">profile</a>
+            </li>
+            <li>
+                <i class="fa fa-project-diagram"></i><a href="projects.html">projects</a>
+            </li>
+            <li><i class="fa fa-capsules"></i><a href="courses.html">courses</a></li>
+            <li>
+                <i class="fa fa-person-booth"></i><a href="friends.html">friends</a>
+            </li>
+            <li><i class="fa fa-file-alt"></i><a href="files.html">files</a></li>
+            <li><i class="fa fa-plane"></i><a href="plans.html">plans</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div id="profile" class="profile">
+            <div class="spacial-head">
+                <span>profile</span>
+            </div>
+            <div class="container">
+                <div class="card info-general-box">
+                    <div class="head-info-box">
+                        <img src="../imges/avatar.png" alt="user-img" width="60" height="60" />
+                        <span class="name-user">Osama Elzero</span>
+                        <span class="level">Level 20</span>
+                        <progress min="0" max="100" value="70"></progress>
+                        <ul class="stars">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <span class="rating">550 Rating</span>
+                    </div>
+                    <div class="section-info-box">
+                        <div class="item">
+                            <span class="title-item">General Information</span>
+                            <div class="item-content">
+                                <span class="name">Full Name : <span>Osama Mohamed</span></span>
+                                <span class="name">Gender : <span>Male</span></span>
+                                <span class="name">Country : <span>Egypt</span></span>
+                                <label for="chkGnlInfo" class="check">
+                                    <input type="checkbox" name="checkName" id="chkGnlInfo" placeholder="check"
+                                        title="check" checked />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <span class="title-item">Personal Information</span>
+                            <div class="item-content">
+                                <span class="name">Email : <span>o@nn.sa</span></span>
+                                <span class="name">Phone : <span>019123456789</span></span>
+                                <span class="name">Date Of Birth : <span>25/10/1982</span></span>
+
+                                <label for="chkPerInfo" class="check">
+                                    <input type="checkbox" name="checkPer" id="chkPerInfo" placeholder="check"
+                                        title="check" />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <span class="title-item">Job Information</span>
+                            <div class="item-content">
+                                <span class="name">Title : <span>Full Stack Developer</span></span>
+                                <span class="name">Programming languages : <span>Python</span></span>
+                                <span class="name">Years Of Experience : <span>15+</span></span>
+                                <label for="chkJobInfo" class="check">
+                                    <input type="checkbox" name="checkJob" id="chkJobInfo" placeholder="check"
+                                        title="check" checked />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <span class="title-item">Billing Information</span>
+                            <div class="item-content">
+                                <span class="name">Payment Method : <span>Paypal</span></span>
+                                <span class="name">Email : <span>email@website.com</span></span>
+                                <span class="name">Subscription : <span>Monthly</span></span>
+                                <label for="chkBlgInfo" class="check">
+                                    <input type="checkbox" name="checkBalling" id="chkBlgInfo" placeholder="check"
+                                        title="check" />
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card skills">
+                    <div class="head-skills">
+                        <span class="title-card">My Skills</span>
+                        <span class="title-disc">My complete list skills</span>
+                    </div>
+                    <div class="skills-section">
+                        <ul class="skills-list">
+                            <li>
+                                <ul class="item">
+                                    <li>HTML</li>
+                                    <li>PugJs</li>
+                                    <li>HAML</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="item">
+                                    <li>CSS</li>
+                                    <li>SASS</li>
+                                    <li>Stylus</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="item">
+                                    <li>javascript</li>
+                                    <li>typeScript</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="item">
+                                    <li>Vuejs</li>
+                                    <li>Reactjs</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="item">
+                                    <li>jest</li>
+                                    <li>jasmine</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="item">
+                                    <li>PHP</li>
+                                    <li>Laravel</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="item">
+                                    <li>Python</li>
+                                    <li>Django</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card activities">
+                    <div class="head-activitie">
+                        <span class="title-card">Latest Activities</span>
+                        <span class="title-disc">My complete list skills</span>
+                    </div>
+                    <ul class="section-activities">
+                        <li>
+                            <img src="../imges/activity-01.png" alt="img-activities" width="60" />
+                            <div>
+                                <ul>
+                                    <li>store</li>
+                                    <li>18:10</li>
+                                    <li>Bought The Mastering Python Course</li>
+                                    <li>Yesterday</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../imges/activity-02.png" alt="img-activities" width="60" />
+                            <div>
+                                <ul>
+                                    <li>Academy</li>
+                                    <li>16:05</li>
+                                    <li>Got The PHP Certificate</li>
+                                    <li>Yesterday</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../imges/activity-03.png" alt="img-activities" width="60"/>
+                            <div>
+                                <ul>
+                                    <li>Badges</li>
+                                    <li>18:05</li>
+                                    <li>Unlocked The 10 Skills Badge</li>
+                                    <li>Yesterday</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../imges/activity-01.png" alt="img-activities" width="60"/>
+                            <div>
+                                <ul>
+                                    <li>Store</li>
+                                    <li>12:05</li>
+                                    <li>Bought The Typescript Course</li>
+                                    <li>Yesterday</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
